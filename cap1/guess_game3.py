@@ -1,7 +1,7 @@
 #Exercício do 1 capítulo do livro Use a cabeça programação - usando randint
 
 from random import randint
-secret = randint(1,10) #O randint gera um número aleatório entre 1 e 10
+secret = randint(1,30) #O randint gera um número aleatório entre 1 e 10
 guess = 0
 
 print("Welcome!")
