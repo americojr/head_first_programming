@@ -1,10 +1,13 @@
 #Exercício capítulo 2
 
 import urllib.request
+import time
 
 price = 99.99
 
 while price > 4.74:
+
+    time.sleep(900)
 
     print("Looking for the best price...")
     
@@ -19,6 +22,7 @@ while price > 4.74:
     end_of_price = start_of_price + 4
 
     price = float(text[start_of_price:end_of_price])
+
 
 print("Buy!")
     
