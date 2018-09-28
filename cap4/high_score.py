@@ -8,9 +8,13 @@ for line in result_f:
 
     (name, score) = line.split()
 
-    scores.append(score)
+    scores.append(float(score))
 
 result_f.close()
+
+#scores.sort()
+#scores.reverse()
+scores.sort(reverse=True) #esta linha substitui as duas linhas acima
 
 print("The top scores were:")
 
