@@ -6,9 +6,11 @@ result_f = open("results.txt")
 
 for line in result_f:
 
-    if float(line) > highest_score:
+    (name, score) = line.split()
 
-        highest_score = float(line)
+    if float(score) > highest_score:
+
+        highest_score = float(score)
 
 result_f.close()
 

@@ -6,6 +6,8 @@ a = rock_band.split()
 
 print(a)
 
+print(type(a))
+
 (rhythm, lead, vocals, bass) = rock_band.split()
 
 print(rhythm, lead, vocals, bass)
