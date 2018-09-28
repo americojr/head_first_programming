@@ -1,6 +1,6 @@
 #Exercício capítulo 4 - manipulando dados em arquivos e arrays
 
-highest_score = 0
+scores = []
 
 result_f = open("results.txt")
 
@@ -8,13 +8,15 @@ for line in result_f:
 
     (name, score) = line.split()
 
-    if float(score) > highest_score:
-
-        highest_score = float(score)
+    scores.append(score)
 
 result_f.close()
 
-print("The highest score was:")
+print("The top scores were:")
 
-print(highest_score)
-    
+print(scores[0])
+print(scores[1])
+print(scores[2])
+
+
+
