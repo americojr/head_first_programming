@@ -14,7 +14,7 @@ def get_price():
 
     end_of_price = start_of_price + 4
 
-    print(text[start_of_price:end_of_price])
+    return(text[start_of_price:end_of_price])
 
 
 get_price()

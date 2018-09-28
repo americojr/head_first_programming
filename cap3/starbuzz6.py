@@ -15,5 +15,27 @@ def get_price():
 
     end_of_price = start_of_price + 4
 
-    return(float(text[start_of_price:end_of_price]))
+    return float(text[start_of_price:end_of_price])
 
+
+answer = input("Do you want to see the price right now (Y/N)?")
+
+answer.upper()
+
+if answer == "Y":
+
+    print(get_price())
+
+else:
+    price = 99.99
+    
+    while price > 4.74:
+
+        time.sleep(900)
+
+        print("Looking for the best price...")
+
+        price = get_price()
+
+    print("Buy!")
+    
