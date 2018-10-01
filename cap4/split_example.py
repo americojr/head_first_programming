@@ -1,4 +1,4 @@
-#Exemplo do método split disponível
+#Exemplo do método split
 
 rock_band = "Al Carl Mike Brian"
 
