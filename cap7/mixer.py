@@ -16,20 +16,3 @@ wait_finish(s3.play())
 s4 = sounds.Sound("carhorn.wav")
 wait_finish(s4.play())
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
